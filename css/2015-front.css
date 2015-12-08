@@ -1,0 +1,838 @@
+
+/********************************************* Body */
+.home-2015 .marginator { }
+.home-2015  #home-wrapper {
+	padding-bottom: 0;
+	background:none;
+}
+/********************************************* Top */
+#top {
+	background-color: #ee0000;
+	padding: 10px 0;
+}
+#top h2, #top .content h3 {
+	display: none;
+	margin-bottom: 0;
+}
+#top .content {
+	margin-bottom: 0;
+}
+#top .content p {
+	text-indent: -9999px;
+	margin-bottom: 0;
+}
+#top .content p a {
+	display: block;
+	width: 172px;
+	height: 25px;
+	background-image:url(../img/logos/BrownTogether-Primary-WHT.png);
+	background-repeat: no-repeat;
+	background-size:cover;
+	margin-bottom: 0;
+	margin: auto;
+}
+
+/********************************************* Home Wrapper */
+#front-main-content h2 {
+	font-size: 1.2em;
+	text-transform: uppercase;
+	margin-bottom: 1em;
+}
+#front-main-content .column {
+	margin: 0 0 20px 0;
+}
+#front-main-content .column .block {
+	margin: 0 0 20px 0;
+}
+#front-main-content ul {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	list-style-type: none;
+	
+}
+#front-main-content ul li {
+	margin: 0 0 0 0 !important;
+	padding: 0 0 0 0;
+	font-size: 1.2em;
+	list-style-type: none !important;
+	list-style-image:none !important;
+}
+/********************************************* Billboard */
+
+section#billboard {  
+	margin: 0 0 30px 0;
+}
+section#billboard .marginator {  
+	width: 100%;
+}
+
+
+ul.slides { list-style: none !important; padding-left: 0 !important; }
+ul.slides li { margin: 0; }
+
+.billboard-slide { position: relative; }
+.billboard-caption { 
+	background: rgba(0,0,0,1);	 
+	color: #fff; 
+	padding: 20px 20px 20px 20px; 
+	z-index: 100;
+}
+.billboard-caption p {
+	margin-bottom: 0;
+}
+.billboard-caption p a {
+		color: #ffcd00;
+}
+.billboard-caption h5.eyebrow { color: #fff; }
+.billboard-slide h2 {
+	  /*  font-family: 'Vitesse SSm A','Vitesse SSm B',Georgia,serif;
+			font-weight: 500; */
+}
+.billboard-slide h2 a { 
+	color: #ffcd00;
+	font-size: 1.25em; 
+}
+.billboard-image-wrapper img {
+	width: 100%;
+}
+.flexslider-container {
+	position: relative;
+}
+.flex-control-nav {
+  bottom: -30px;
+  position: absolute;
+  text-align: center;
+  width: auto;
+  z-index: 33;
+  margin-bottom: 0 !important;
+	left: 50%;
+	margin-left: -40px;
+}
+
+/********************************************* Front Main Content */
+
+#front-main-content article {
+	  margin: 0 0 25px 0;
+}
+#front-main-content article img, #front-main-content article .homepage-video-embed-wrapper {
+	  margin: 0 0 5px 0;
+}
+#front-main-content article h5 {
+	  font-size: 1.25em;
+	margin: 0 0 5px 0;
+}
+
+/********************************************* I want to */
+#i-want-to--- {
+	
+}
+#i-want-to--- ul li {
+	margin: 0 0 15px 0 !important;
+		position: relative;	
+}
+#i-want-to--- li a {
+		font-family: 'Vitesse SSm A', 'Vitesse SSm B', Georgia, serif; 
+		color: #000;
+		font-size: 1.2em;
+		font-weight: 700;
+		display: inline-flex;
+			padding: 0 0 0 38px !important;
+}
+#i-want-to--- li a:hover {
+	color: #300;
+    text-decoration: none;
+		background-color: #f3f0ea;
+}
+#i-want-to--- li.expanded, #i-want-to--- li.start-collapsed  {
+		margin: 0 0 0 0 !important;
+}
+#i-want-to--- li.expanded a, #i-want-to--- li.start-collapsed a{
+		margin: 0 0 15px 0 !important;
+		display: block;
+	
+}
+#i-want-to--- li.expanded ul, #i-want-to--- li.start-collapsed ul  {
+		margin: 0 0 15px 21px !important;
+		display: block;
+}
+
+#i-want-to--- li.expanded ul li, #i-want-to--- li.start-collapsed ul li {
+		list-style-type: disc !important;
+		margin: 0 0 15px 31px !important;
+				font-size: 1em;
+
+
+}
+#i-want-to--- li.expanded ul li a, #i-want-to--- li.start-collapsed ul li a  {
+		font-size: 1em;
+		padding: 0 0 0 0 !important;
+}
+#i-want-to--- li.expanded ul li.expanded ul a,
+#i-want-to--- li.expanded ul li.start-collapsed ul a {
+		font-size: 1em;
+		padding: 0 0 0 0 !important;
+}
+#i-want-to--- li.expanded ul li.leaf a:before {
+	
+}
+#i-want-to--- li.expanded ul li.leaf a:before {
+		padding-right: 0;
+
+}
+#i-want-to--- li.leaf a:before, #i-want-to--- li.expanded a:before, 
+#i-want-to--- li.start-collapsed a:before {
+   font-family: FontAwesome;
+   display: inline-block;
+   vertical-align: middle;
+	 font-size: 1.6em;
+	 color: #c00404;
+	 text-align: center;
+	 font-weight: normal;
+	 width: 33px;
+	text-decoration: none !important;
+	top: 0;
+	left: 0;
+	position: absolute;
+}
+#i-want-to--- li a:hover:before {
+		text-decoration: none !important;	
+}
+a.schedule-a-tour:before {
+   content: "\f0fe";
+	 	text-decoration: none !important;	
+}
+a.apply:before {
+    content: "\f14a";
+			text-decoration: none !important;	
+}
+a.academic-calendar:before {
+ 	text-decoration: none !important;	
+    content: "\f073";
+}
+a.explore-academics:before {
+    content: "\f061";
+}
+a.view-campus-map:before {
+    content: "\f14e";
+}
+a.get-directions:before {
+     content: "\f041";
+}
+a.study-abroad:before {
+        content: "\f072";
+}
+a.discover-brown-connect:before {
+      content: "\f0ca";
+		
+}
+a.life-after-brown:before {
+     content: "\f19c";
+		
+}
+
+
+/********************************************* Headlines */
+#headlines {
+	    background-color: transparent;
+			padding: 0 0 0 0;
+}
+
+/********************************************* Events */
+#front-main-content .calendar-list li.event {
+	clear: left;
+	margin-bottom: 1em !important;
+	padding-bottom: 1em !important;
+	border-bottom: 1px dotted #b2b2b2;
+	height: 100%;
+	display:inline-block;
+	width: 100%;
+}
+#front-main-content .calendar-list li.event:last-of-type {
+	border-bottom: none;
+}
+.calendar-list .date  {
+	float: left;
+	text-align: left;
+	padding-bottom: 1em;
+	font-size: 0.75em;
+	width: 40px;
+}
+.calendar-list .date .month {
+	display: block;
+	text-transform: uppercase;
+	font-size: 10px;
+	margin: 0 0 3px 0;
+	font-weight: bold;
+	text-align: center;
+}
+.calendar-list .date .day {
+	display: block;
+	font-size: 24px;
+	font-weight: 700;
+	font-family: 'Vitesse A', 'Vitesse B', serif;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	color: #000;
+}
+.calendar-list  .details {
+	float: left;
+	width: 155px;
+	margin-left: 20px;
+}
+.calendar-list  .details h5 {
+	margin: 0 0 5px 0;
+	position: relative;
+font-size: 14px;
+}
+.calendar-list  a {
+
+		
+	}
+.calendar-list a:before {
+	content: url(/sites/default/themes/pawtuxet/img/bullet-calendar-block.png);
+	width: 10px;
+	position:	absolute;
+	top: 0;
+	left :-14px;
+}
+.calendar-list .location {
+		font-weight: 700;
+	font-family: 'Vitesse A', 'Vitesse B', serif;
+	text-transform:uppercase;
+	font-size: 11px;
+	line-height: 1.2;
+}
+
+
+/********************************************* Student Stories, Featured Video, Athletics */
+
+.homepage-video-embed-wrapper, .homepage-video-embed-wrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	height: 0;
+}
+.homepage-video-embed-wrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+#athletics, #student-focus {
+	border: 1px solid #645e50;
+}
+#student-focus article, #athletics article {
+	margin: 0 0 0 0 !important;
+
+}
+#athletics h2, #student-focus h2 {
+	background-color: #645e50;
+	color: #FFF;
+	margin-bottom: 0;
+	padding: 10px 5px 10px 10px;
+}
+#athletics h5, #featured-video h5, #student-focus h5 {
+	padding: 5px 10px 0 10px;
+	margin: 0 0 0 0;
+}
+/********************************************* #brownuniversity */
+#front-social h5 {
+	  font-size: 1.25em;
+	margin: 10px 0 5px 0;
+	text-align:left;
+
+}
+#front-social {
+	margin: 0 0 50px 0;
+	clear: both;
+}
+#front-social .marginator {
+	border: 1px solid #645e50;
+	display:table;
+	text-align:center;
+}
+#front-social .marginator > .column {
+    padding: 15px 10px;
+		max-width: 330px;
+		float:left;	
+}
+#front-social .marginator:after {
+	content: '';
+}
+#front-social  h2 {
+	background-color: #645e50;
+	color: #FFF;
+	margin-bottom: 0;
+	padding: 10px 5px;
+	text-transform:uppercase;
+	text-align:left;
+}
+#front-social  .column h2 {
+	background-color: transparent;
+	color: #000;
+	margin-bottom: 0.5em;
+	text-transform: none;
+	position: relative;
+	display:inline-block;
+	width: auto;
+	text-align:center;
+	
+}
+#on-instagram h2 {
+
+}
+#front-social  .column #on-youtube h2 {
+	
+}
+#front-social  .column #on-twitter h2 {
+
+}
+#on-instagram h2:before {
+	content: url(../img/icons/front-instagram.png);
+}
+#front-social  .column #on-youtube h2:before {
+		content: url(../img/icons/front-youtube.png);
+
+}
+#front-social  .column #on-twitter h2:before {
+	content: url(../img/icons/front-twitter.png);
+
+}
+#on-instagram .content {
+	position: relative;
+	margin-bottom: 0;
+}
+.brown-instagram  {
+	line-height: 0;
+}
+.brown-instagram img {
+	z-index: 22;
+}
+.instagran-caption {
+	display: none;
+		position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0.7);
+	z-index: 33;
+	line-height: 1.2;
+	padding: 10% 10%;
+	height: 80%;
+	width: 80%;
+	text-align: center;
+}
+.brown-instagram:hover .instagran-caption {
+	display: block;
+}
+.instagram-user a {
+	color: #ffcc00;
+	font-size: 14px;
+	margin: 0 0 4px 0;
+}
+.instagram-text {
+		font-size: 12px;
+		color: #FFF;
+}
+
+
+.column-wide .block-brown_tweets .customisable-border {
+ border: none !important;
+	
+}
+.customisable-border {
+	border: none !important;
+}
+
+
+/********************************************* More Links */
+
+.more-link {
+	text-align: center !important;
+}
+
+.more-link a, a.more-link {
+	border-radius: 3px;
+	background-color: #645e50;
+	font-weight: bold;
+	color: #FFF !important;
+	display: inline-block;
+	font-size: 1em;
+	font-family: "Vitesse SSm A", "Vitesse SSm B", Vitesse, Arial, sans-serif;
+	letter-spacing: 1px;
+	padding: 5px 10px 5px 20px;
+}
+.more-link a::before, a.more-link::before {
+    content: " ";
+    height: 8px;
+    width: 8px;
+    background-size: 8px 8px;
+    background-image: url("../img/icons/arrow.svg");
+    padding: 0 0;
+    margin: 0 5px 0 -14px;
+    display: inline-block;
+}
+
+
+
+
+/********************************************* School Links */
+#front-schools {
+}
+
+#front-schools .content{
+}
+
+#front-schools .content ul {
+	list-style-type: none;
+}
+#front-schools .content ul li {
+	margin-left: 0;
+	margin: 0 0 20px 0;
+}
+#front-schools .content ul li a {
+	display: block;
+	text-align: center;
+			font-weight: 700;
+	font-family: 'Vitesse SSm A', 'Vitesse SSm B', serif;
+	padding: 30px 10px;
+	border-radius: 8px;
+	color: #fff;
+	font-size: 1.7em;
+}
+#front-schools .content ul li a span {
+	display: block;
+	font-size: 0.75em;
+}
+.school-graduate a {
+	background-color: #655e58;
+}
+.school-medical a {
+		background-color: #007da3;
+}
+.school-engineering a {
+		background-color: #575f84;
+}
+.school-public-health a {
+
+	background-color: #c00404;
+}
+.school-professional-studies a {
+		background-color: #655e58;
+
+}
+/********************************************* Superfooter */
+#front-footer-menu {
+	background-color: #f3f0ea;
+  border-top: 1px solid #b2b2b2;
+  padding: 30px 0;
+  clear: both;
+  width: 100%;
+  min-height: 110px;
+}
+
+#front-footer-menu h2 {
+	text-transform: uppercase;
+}
+
+#front-footer-menu ul {
+    list-style-image: url(/sites/default/themes/pawtuxet/img/bullet-red.png);
+}
+#front-footer-menu ul li.leaf {
+       margin-bottom: 0.6em;
+			 font-size: 1em;
+			 font-weight: 700em;
+			list-style-image: url(/sites/default/themes/pawtuxet/img/bullet-red.png);
+}
+
+
+
+
+
+
+
+a.giving-footer {
+    display: block;
+    text-indent: -999em;
+    background: transparent url(/sites/default/themes/pawtuxet/img/giving-to-brown.png) 50% 0 no-repeat;
+    height: 51px;
+    width: 192px;
+    margin: auto;
+    margin-top: .5em;
+}
+
+
+
+
+/**********************************************
+**********************************************
+RESPONSIVE STYLES
+**********************************************
+**********************************************/
+
+/*********************************************************************/
+/* and (min-width: 768px)  */
+@media only screen and (min-width: 48em) {
+/********************************************* Top */
+#top {
+
+	text-align: center;
+	padding: 15px 0;
+}
+#top .content {
+	display: inline;
+}
+#top h2 {
+	text-indent: -9999px;
+
+	display: inline-block;
+	width: 172px;
+	height: 25px;
+	background-image:url(../img/logos/BrownTogether-Primary-WHT.png);
+	background-repeat: no-repeat;
+	background-size:cover;
+	margin: 0 0 0 0;
+}
+#top .content h3 {
+	display: inline-block;
+	 font-family: 'Numberplate-Round'; 
+	 color: #FFF;
+	 margin: 5px 20px 0 20px;
+}
+#top .content p {
+	display: inline-block;
+	color: #FFF;
+}
+#top .content p a {
+	background-image: none;
+	  font-family: 'Circular';
+		color: #FFF;
+		background-color: rgba(0,0,0,0.5);
+		text-indent: 0;
+		padding: 4px 8px;
+		width: auto;
+		height: auto;
+		text-transform: uppercase;
+}
+#top .content p a:after {
+	content: " >";
+}
+/********************************************* Billboard */
+section#billboard {
+    margin: 0 0 40px 0;
+}
+.billboard-caption {
+    background: rgba(0,0,0,0.7);
+		max-width: 400px;
+		  position: absolute;
+}
+.billboard-caption.position-none {
+	display:none;
+}
+.billboard-caption.position-nw {
+  top: 65px;
+	left: 0; 
+}
+.billboard-caption.position-se {
+ 	bottom: 25px;
+	right: 0; 
+}
+.billboard-caption.position-sw {
+	bottom: 25px;
+	left: 0;
+}
+.billboard-caption.position-ne {
+ 	top: 65px;
+ right: 0; 
+}
+}
+/* all screens except for handheld and amazon kindle  */
+/* and (min-width: 481px) and (max-width: 99999px) */
+@media screen and (min-width:30.0625em) and (max-width: 999em) {
+/********************************************* Billboard */
+#billboard .marginator {
+	width: 100%;
+	max-width: 1200px !important;
+}
+#billboard {
+	margin-top: -40px !important;
+}
+}
+/*********************************************************************/
+/* average and large desktop  */
+/* and (min-width: 940px) and (max-width: 99999px) */
+@media only screen and (min-width: 58.75em) and (max-width: 999em) {
+	
+	
+
+/********************************************* Front Main Content */
+#front-main-content h2 {
+	font-size: 1.3em;
+}
+#front-main-content .column {
+	width: 21%;
+	padding: 0 2%;
+	float: left;
+}
+#front-main-content #athletics article h5 {
+    font-size: 1.15em;
+    margin: 0 0 5px 0;
+}
+#front-main-content .column .block#student-focus {
+	    margin-top: -13px;
+}
+/********************************************* Billboard */
+.billboard-caption {
+	max-width: 550px;
+}
+.billboard-slide h2 {
+	 line-height: 1.1;
+}
+.billboard-slide h2 a {
+	 font-size: 2em;
+}
+.billboard-caption p {
+    font-size: 1.1em;
+}
+
+/********************************************* #brownuniversity */
+#front-social h2 {
+	font-size: 1.3em;
+}
+.column {
+	width: 29%;
+	padding: 20px 2% 20px 2% !important;
+	float: left;
+}
+
+/********************************************* School Links */
+#front-schools {
+	display: inline-block;
+	width: 100%;
+	min-height: 115px;
+}
+
+#front-schools .content ul {
+	/* width: 100%;
+	overflow: auto !important; */
+	text-align: center;
+	margin: auto !important;
+	padding: 0;
+}
+
+#front-schools .content ul li {
+	width: 20%;
+	padding: 0 1%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#front-schools .content ul li a {
+
+	height: 36px;
+}
+
+.school-professional-studies a span {
+	margin-top: -8px;
+}
+/********************************************* Superfooter */
+#front-footer-menu {
+	display: inline-block;
+	display:table;
+}
+#front-footer-menu .column {
+	width: 19%;
+	padding: 0 3%;
+	float: left;
+	display:table-cell;
+}
+}
+
+/*********************************************************************/
+/* smaller than desktop, larger than handheld  */
+/* and (min-width: 481px) and (max-width: 939px) */
+@media only screen and (min-width: 30.0625em) and (max-width: 58.6875em) {
+	
+/********************************************* Front Main Content */
+#front-main-content .column {
+	width: 42%;
+	padding: 0 4%;
+	float: left;
+}
+#front-main-content .column:nth-of-type(3) {
+	
+	clear: left;
+}
+#front-main-content #headlines article:last-of-type {
+  display: none;
+}
+
+/********************************************* #brownuniversity */
+.column .column{
+		width: 42%;
+	padding: 0 4%;
+	float: left;
+}
+
+/********************************************* School Links */
+#front-schools .content ul li {
+	width: 44%;
+	padding: 0 2%;
+	float: left;
+}
+#front-schools .content ul li a {
+	    padding: 30px 20px;
+			font-size: 1.75em;
+}
+/********************************************* Superfooter */
+#front-footer-menu {
+	display: inline-block;
+	display:table;
+}
+#front-footer-menu .column {
+	width: 42%;
+	padding: 0 4%;
+	float: left;
+	display:table-cell;
+}
+}
+
+/*********************************************************************/
+/* and (min-width: 1100px) */
+@media only screen and (min-width: 68.75em) {
+.marginator, .the-bar.block {
+    width: 1100px;
+}
+#i-want-to--- ul li {
+	    margin: 0 0 30px 0 !important;
+}
+#i-want-to--- li.expanded a {
+    margin: 0 0 15px 0 !important;
+}
+#i-want-to--- li.expanded ul {
+    margin: 0 0 30px 21px !important;
+}
+#i-want-to--- li.expanded ul li {
+    list-style-type: disc !important;
+    margin: 0 0 15px 31px !important;
+}
+/********************************************* Student, Featured Video, Atheltics */
+#front-main-content .column #student-focus {
+    margin: 0 0 20px 0;
+}
+
+#front-main-content .column #featured-video {
+    margin: 0 0 10px 0;
+}
+#front-main-content .column #athletics {
+    margin: 0 0 0 0;
+}
+
+}
+
+/* and (min-width: 0px) and (max-width: 480px) */
+@media screen and (min-width:0em) and (max-width: 30em) {
+.front #top, .home-2015 #top {
+	    margin-top: 55px;
+}
+}
