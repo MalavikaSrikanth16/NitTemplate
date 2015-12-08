@@ -277,7 +277,7 @@ a.life-after-brown:before {
 }
 .calendar-list  .details {
 	float: left;
-	width: 155px;
+	width: 200px;
 	margin-left: 20px;
 }
 .calendar-list  .details h5 {
@@ -350,7 +350,7 @@ font-size: 14px;
 #front-social .marginator {
 	border: 1px solid #645e50;
 	display:table;
-	text-align:center;
+	
 }
 #front-social .marginator > .column {
     padding: 15px 10px;
@@ -402,12 +402,6 @@ font-size: 14px;
 #on-instagram .content {
 	position: relative;
 	margin-bottom: 0;
-}
-.brown-instagram  {
-	line-height: 0;
-}
-.brown-instagram img {
-	z-index: 22;
 }
 .instagran-caption {
 	display: none;
@@ -467,7 +461,7 @@ font-size: 14px;
     height: 8px;
     width: 8px;
     background-size: 8px 8px;
-    background-image: url("../img/icons/arrow.svg");
+    background-image: url("../images/arrow.svg");
     padding: 0 0;
     margin: 0 5px 0 -14px;
     display: inline-block;
@@ -670,7 +664,7 @@ section#billboard {
 	font-size: 1.3em;
 }
 #front-main-content .column {
-	width: 21%;
+	width: 28%;
 	padding: 0 2%;
 	float: left;
 }
