@@ -8,7 +8,7 @@
 /********************************************* Top */
 #top {
 	background-color: #ee0000;
-	padding: 10px 0;
+	padding: 15px 0;
 }
 #top h2, #top .content h3 {
 	display: none;
@@ -25,7 +25,7 @@
 	display: block;
 	width: 172px;
 	height: 25px;
-	background-image:url(../img/logos/BrownTogether-Primary-WHT.png);
+	background-image:url(../img/logos/NITlogo.png);
 	background-repeat: no-repeat;
 	background-size:cover;
 	margin-bottom: 0;
@@ -96,6 +96,7 @@ ul.slides li { margin: 0; }
 	width: 100%;
 }
 .flexslider-container {
+	z-index:-10;
 	position: relative;
 }
 .flex-control-nav {

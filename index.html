@@ -66,6 +66,17 @@ var BASE_URL = "/";
   <li><a href="#body-content" accesskey="s" tabindex="1">Skip navigation</a></li>
 </ul>
 <section id="top">
+  <div id="search-theme-form" class="clear-block block block-google_cse ">
+            <form action="/search/google" accept-charset="UTF-8" method="get" id="google-cse-searchbox-form">
+              <input type="hidden" name="cx" id="edit-cx" value=""  />
+              <input type="hidden" name="cof" id="edit-cof" value="FORID:11"  />
+              <div class="form-item" id="edit-query-wrapper">
+                <input type="text" maxlength="128" name="query" id="edit-query" accesskey="4" size="40" value="" title="Enter the terms you wish to search for." class="form-text search-field" />
+              </div>
+              <input type="image" name="sa" id="edit-sa"  alt="Search" class="form-submit form-submit search-submit" src="../NITSite/imgs/search-button.png" />
+              <input type="hidden" name="form_id" id="edit-brown-google-cse-searchbox-form" value="brown_google_cse_searchbox_form"  />
+            </form>
+          </div> 
 </section>
 
 <div id="home-wrapper" class="wrapper">
@@ -86,9 +97,6 @@ var BASE_URL = "/";
               <li><a href="#" rel="nofollow">Contacts</a></li>
               <li class="last"><a href="/campus-life" rel="nofollow">Campus Life</a></li>
             </ul>
-          </div>
-          <div>
-            
           </div>
           <div>
             
@@ -120,16 +128,15 @@ var BASE_URL = "/";
     <div id="brown-masthead">
       <div id="brown-brand">
         <div class="marginator">
-          <h1><a href="/" accesskey="1" title="Brown University Homepage" id="brown-logo"><img src="http://skill.nitt.edu/images/nitlogo.png" alt="" />
-          <span>NIT Tiruchirapalli</span></a></h1>
-                    <section id="mobile-navigation">
-            <div class="marginator">
-              <nav id="mobile-nav" class="mmenu">
-                <div class="item-list">
-                  <h3 class="current-site"><a href="">Learn More</a></h3>
-                  <div class="list">
-                    <ul>
-                      <li class="first"><a href="#" rel="nofollow">Home</a></li>
+          <h1><a href="/" accesskey="1" title="Brown University Homepage" id="brown-logo"></a></h1>
+<section id="mobile-navigation">
+  <div class="marginator">
+    <nav id="mobile-nav" class="mmenu">
+        <div class="item-list">
+          <h3 class="current-site"><a href="">Learn more</a></h3>
+          <div class="list">
+            <ul>
+            <li class="first"><a href="#" rel="nofollow">Home</a></li>
               <li><a href="#" rel="nofollow">Courses</a></li>
               <li><a href="#" rel="nofollow">News</a></li>
               <li><a href="#" rel="nofollow">Departments</a></li>
@@ -138,15 +145,11 @@ var BASE_URL = "/";
               <li><a href="#" rel="nofollow">Research</a></li>
               <li><a href="#" rel="nofollow">Contacts</a></li>
               <li class="last"><a href="/campus-life" rel="nofollow">Campus Life</a></li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="item-list" id="find-list">
-                  <h3><a href="">Find</a></h3>
-                  
-                </div>
-                <div class="item-list" id="information-list">
-  
+             </ul>
+            </div>
+          </div>
+              <div class="item-list" id="information-list">
+                  <h3><a href="">Information</a></h3>
                   <div class="list">
                     <ul>
                       <li class="first"><a href="/gateway/current-students">Department</a></li>
@@ -158,35 +161,10 @@ var BASE_URL = "/";
                     </ul>
                   </div>
                 </div>
-                <div class="item-list last">
-                  <h3><a href="">m.Brown.edu</a></h3>
-                  <div class="list">
-                    <ul>
-                      <li><a href="//m.brown.edu/news">News</a></li>
-                      <li><a href="//m.brown.edu/events">Events</a></li>
-                      <li><a href="//m.brown.edu/visit">Visit</a></li>
-                      <li><a href="//m.brown.edu/campus-life">Campus Life</a></li>
-                      <li><a href="//m.brown.edu/map">Map</a></li>
-                      <li><a href="//m.brown.edu/directory">Directory</a></li>
-                      <li><a href="//m.brown.edu/apps">Brown Apps</a></li>
-                      <li><a href="//m.brown.edu/safety">Safety</a></li>
-                    </ul>
-                  </div>
-                </div>
               </nav>
             </div>
           </section>
-          <div id="search-theme-form" class="clear-block block block-google_cse ">
-            <form action="/search/google" accept-charset="UTF-8" method="get" id="google-cse-searchbox-form">
-              <input type="hidden" name="cx" id="edit-cx" value=""  />
-              <input type="hidden" name="cof" id="edit-cof" value="FORID:11"  />
-              <div class="form-item" id="edit-query-wrapper">
-                <input type="text" maxlength="128" name="query" id="edit-query" accesskey="4" size="40" value="" title="Enter the terms you wish to search for." class="form-text search-field" />
-              </div>
-              <input type="image" name="sa" id="edit-sa"  alt="Search" class="form-submit form-submit search-submit" src="../NitTemplate-master/imgs/search-button.png" />
-              <input type="hidden" name="form_id" id="edit-brown-google-cse-searchbox-form" value="brown_google_cse_searchbox_form"  />
-            </form>
-          </div>
+          
         </div>
       </div>
       <div class="marginator">
@@ -200,7 +178,8 @@ var BASE_URL = "/";
   <li id="topical-research" class="menu-721"><a href="#" tabindex="203" class="">Pages</a></li>
 	<li id="topical-research" class="menu-721"><a href="#" tabindex="203" class="">Research</a></li>
   <li id="topical-campus-life" class="menu-700 last"><a href="#" tabindex="204" class="">Contacts</a></li>
-</ul>                    
+</ul>           
+
                   </nav>
       </div>
     </div>
